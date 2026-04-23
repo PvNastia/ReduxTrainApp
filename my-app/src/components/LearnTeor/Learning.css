@@ -1,0 +1,128 @@
+/* Контейнер списку тем */
+.teor-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Сітка карток */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* Стиль самої картки (LearnCard) */
+.learn-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+.learn-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(118, 74, 188, 0.15);
+    border-color: #764abc;
+}
+
+.learn-card h3 {
+    color: #764abc;
+    margin: 0 0 15px 0;
+}
+
+.learn-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.card-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #764abc;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+/* Стилі сторінки деталей (TopicDetails) */
+.details-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+.details-header {
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.details-header h1 {
+    color: #764abc;
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.details-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.back-btn {
+    margin-top: 30px;
+    background: #f0f2f5;
+    color: #555;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #e2e5e9;
+    color: #333;
+}
+/* Кнопка переходу до тестів */
+.teor-btn {
+    display: block;
+    margin: 40px auto 0; /* Центрування кнопки під контентом */
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #764abc 0%, #5a3691 100%);
+    border: none;
+    border-radius: 50px; /* Округла форма */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(118, 74, 188, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.teor-btn:hover {
+    transform: translateY(-3px) scale(1.05); /* Ефект збільшення */
+    box-shadow: 0 8px 25px rgba(118, 74, 188, 0.5);
+    background: linear-gradient(135deg, #8a5ad4 0%, #764abc 100%);
+}
+
+.teor-btn:active {
+    transform: translateY(0); /* Ефект натискання */
+}

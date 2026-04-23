@@ -1,0 +1,92 @@
+.about-container {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.about-container h1 {
+    color: #764abc;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f0f2f5;
+    padding-bottom: 10px;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.about-container h3 {
+    color: #333;
+    margin-top: 30px;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    background: #f9f9fb;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-left: 4px solid #764abc;
+    border-radius: 4px;
+}
+
+.about-container ul li strong {
+    color: #764abc;
+}
+
+/* Блок з поняттями */
+.concepts-card {
+    background-color: #f4f1fa; /* Світло-фіолетовий відтінок */
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border: 1px solid #e0d7f3;
+}
+
+.concepts-card h4 {
+    margin-top: 0;
+    color: #5a3691;
+    font-size: 1.2rem;
+}
+
+.concepts-card ol {
+    padding-left: 20px;
+}
+
+.concepts-card ol li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+.start-btn {
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    background: #764abc;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(118, 74, 188, 0.2);
+}
+
+.start-btn:hover {
+    background: #5a3691;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(118, 74, 188, 0.3);
+}

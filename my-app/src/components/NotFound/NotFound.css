@@ -1,0 +1,84 @@
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Щоб не перекривати хедер */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notfound-content {
+    max-width: 500px;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+}
+
+.error-code {
+    font-size: 100px;
+    margin: 0;
+    line-height: 1;
+    background: linear-gradient(135deg, #764abc 0%, #5a3691 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.error-icon {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.notfound-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.notfound-content p {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.notfound-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Кнопка повернення додому */
+.back-home-btn {
+    padding: 12px 25px;
+    background: #764abc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-home-btn:hover {
+    background: #5a3691;
+    transform: translateY(-2px);
+}
+
+/* Кнопка "Назад" */
+.back-prev-btn {
+    padding: 12px 25px;
+    background: #f0f2f5;
+    color: #555;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-prev-btn:hover {
+    background: #e2e5e9;
+    color: #333;
+}

@@ -1,0 +1,101 @@
+/* Основний контейнер */
+.test-component {
+    width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.test-component h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+}
+
+.test-component hr {
+    height: 2px;
+    border: none;
+    background: #764abc;
+    margin: 20px 0;
+}
+
+.test-component h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Список варіантів */
+.test-component ul {
+    list-style: none;
+    padding: 0;
+}
+
+.test-component li {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 20px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.test-component li:hover {
+    background-color: #f4f1fa;
+    border-color: #764abc;
+}
+
+/* ЛОГІКА ПРАВИЛЬНОЇ/НЕПРАВИЛЬНОЇ ВІДПОВІДІ */
+/* Ці класи додаються твоїм кодом через classList.add */
+
+.test-component li.correct {
+    background: #d4edda; /* Світло-зелений */
+    border-color: #28a745;
+    color: #155724;
+}
+
+.test-component li.wrong {
+    background: #f8d7da; /* Світло-червоний */
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+/* Кнопка Next та інші кнопки */
+.test-component button {
+    display: block;
+    margin: 30px auto 10px;
+    width: 250px;
+    height: 55px;
+    background: #764abc;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.test-component button:hover {
+    background: #5a3691;
+}
+
+/* Індекс питання */
+.test-component .index {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Стилі для блоку результату */
+.test-component h2 {
+    text-align: center;
+}
