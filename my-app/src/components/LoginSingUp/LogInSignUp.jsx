@@ -43,14 +43,12 @@ function LoginSingUp() {
                 </div>}
 
                 <div className="input">
-                    <img src="" alt="" />
                     <input type="email"
                      placeholder="Email" 
                     value={email} 
                      onChange={(e) => setEmail(e.target.value)} />
                 </div>
                 <div className="input">
-                    <img src="" alt="" />
                     <input type="password"
                      placeholder="Password"  
                     value={password} 

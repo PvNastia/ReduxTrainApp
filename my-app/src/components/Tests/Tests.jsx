@@ -74,7 +74,7 @@ function Tests() {
        
                </ul>
                <button onClick={next}>Next</button>
-               <div className="index">{index+1}of {data.length}questions</div>
+               <div className="index">{index+1} of {data.length}questions</div>
                </>}
                {result ? <>
                 <h2> Your Skore {score} out of {data.length}</h2>
